@@ -1,0 +1,14 @@
+version: "2"
+
+services:
+  MoneyExchage:
+    image: php:8.1-apache
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/var/www/html
+
+  composer:
+    image: composer:2.3
+    volumes:
+      - .:/user/src/mymaven
