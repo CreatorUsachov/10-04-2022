@@ -11,4 +11,4 @@ services:
   composer:
     image: composer:2.3
     volumes:
-      - .:/user/src/mymaven
+      - .:/app
