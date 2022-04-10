@@ -30,3 +30,4 @@ class Currency
 }
 
 $usd = new Currency(Code::EUR);
+

@@ -13,3 +13,7 @@ $User2 = new \Manhattan\Mon\Money(30,$currency2);
 
 
 
+
+
+
+
