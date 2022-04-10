@@ -1,8 +1,13 @@
 <?php
-namespace Manhattan;
+namespace Manhattan\Mon;
+
+
+use Manhattan\Cur\Currency;
+
 class Money
 {
     private int|float $amount;
+
     private Currency $currency;
 
 
@@ -57,3 +62,4 @@ class Money
 
 
 }
+

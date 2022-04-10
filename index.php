@@ -1,6 +1,15 @@
 <?php
 
-require_once '';
+require_once 'vendor/autoload.php';
 
-$Currency = new \Manhattan\Money();
-$Money = new \Manhattan\Currency();
+
+$currency1 = new \Manhattan\Cur\Currency(\Manhattan\Enums\Code::EUR);
+$currency2 = new \Manhattan\Cur\Currency(\Manhattan\Enums\Code::EUR);
+$User1 = new \Manhattan\Mon\Money(30,$currency1);
+$User2 = new \Manhattan\Mon\Money(30,$currency2);
+
+
+
+
+
+
